@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa url("images/Background2.png") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; 
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: orange;
+}
+
+.search {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlinks {
+    height: 50px;
+    width: 450px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.navlinks a:hover {
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.left {
+    max-width: 400px;
+}
+
+.left h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.left #l {
+    font-style: italic;
+    color: orange;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.left #a {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.left button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: gray;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.left button:hover {
+    background-color: orange;
+}
+
+.right {
+    height: 370px;
+    width: 370px;
+    background-image: url("images/food.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative; 
+}
+
+.icons {
+    height: 150px;
+    width: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: -215px; 
+    top: 50%;
+    transform: translateY(-50%);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+article {
+    height: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+}
+
+article img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
