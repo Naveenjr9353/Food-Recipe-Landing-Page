@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f8f9fa url("images/Background2.png") no-repeat center center fixed;
+    background: #f8f9fa url("Background2.png") no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
     overflow-x: hidden;
@@ -107,7 +107,7 @@ section {
 .right {
     height: 370px;
     width: 370px;
-    background-image: url("images/food.jpg");
+    background-image: url("food.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -146,3 +146,4 @@ article img {
     width: 150px;
     border-radius: 50%;
 }
+
